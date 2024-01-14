@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'boot'
 
 require 'rails/all'
@@ -7,6 +9,9 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 module FoodOrganizer
+  # The FoodOrganizer::Application class in Rails initializes configuration defaults for the application,
+  # sets the Rails version to 7.1, and includes configurations for autoloading specific directories
+  # while allowing customization for specific environments.
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.1
