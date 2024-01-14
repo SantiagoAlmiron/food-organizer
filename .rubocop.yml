@@ -4,3 +4,6 @@ AllCops:
     - 'bin/**/*'
 Style/StringLiterals:
   Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - 'config/environments/development.rb'
