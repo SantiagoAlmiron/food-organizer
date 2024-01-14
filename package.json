@@ -1,0 +1,8 @@
+{
+  "name": "food-organizer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SantiagoAlmiron/food-organizer",
+  "author": "Santiago Almiron <sanalmiron@hotmail.com>",
+  "license": "MIT"
+}
